@@ -12,6 +12,11 @@ body {
 header {
   background-color: #2e3a46;
 }
+header a {
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+}
 
 #site_main {
   display: flex;

@@ -1,6 +1,6 @@
 <?php
+#Database
 include './db/db.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -16,10 +16,8 @@ include './db/db.php';
 <body>
     <?php
     include './templates/header.php';
-    include './templates/main.php'
+    include './templates/main.php';
+    var_dump($_SERVER);
     ?>
-    
-    <!-- Script my app.js -->
-    <script src="./dist/js/app.js"></script>
 </body>
 </html>
