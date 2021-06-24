@@ -1,1 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  background-color: #1e2d3b;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #2e3a46;
+}
+
+#site_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+#site_main .albums {
+  background-color: #2e3a46;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 10px;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+}
+#site_main .albums img {
+  width: 180px;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#site_main h2 {
+  color: white;
+  margin: 10px auto;
+  text-transform: uppercase;
+}
+#site_main .album_artist {
+  color: #5e6267;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#site_main .album_year {
+  color: #5e6267;
+  font-size: 18px;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,36 @@
+#site_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    .albums{
+        background-color: $albumsBG;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 10px;
+        padding: 15px;
+        width: 220px;
+        text-align: center;
+        img{
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+        }
+    }
+    h2{
+        color: $lightText;
+        margin: 10px auto;
+        text-transform: uppercase;
+    }
+    .album_artist{
+        color: $darkText;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .album_year{
+        color: $darkText;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+}
