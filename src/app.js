@@ -7,7 +7,7 @@ const app = new Vue({
 
     mounted(){
         axios
-        .get("api/disks.php")
+        .get("./api/disks.php")
         .then(resp =>{
             console.log(resp);
             this.albums = resp.data

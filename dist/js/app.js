@@ -15,7 +15,7 @@ var app = new Vue({
   mounted: function mounted() {
     var _this = this;
 
-    axios.get("api/disks.php").then(function (resp) {
+    axios.get("./api/disks.php").then(function (resp) {
       console.log(resp);
       _this.albums = resp.data;
     })["catch"](function (e) {
