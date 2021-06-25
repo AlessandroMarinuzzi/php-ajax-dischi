@@ -17,7 +17,6 @@ include './db/db.php';
     <?php
     include './templates/header.php';
     include './templates/main.php';
-    var_dump($_SERVER);
     ?>
 </body>
 </html>
